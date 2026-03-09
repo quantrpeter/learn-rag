@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "text": "TechFlow's return policy allows customers to return any product within 30 days of purchase for a full refund. Items must be in original packaging and unused condition. Refunds are processed within 5-7 business days after the returned item is received at our warehouse. Shipping costs for returns are covered by TechFlow if the return is due to a defective product."
+  },
+  {
+    "id": "2",
+    "text": "TechFlow offers three subscription tiers: Starter ($9/month) includes 5 projects and 1GB storage. Professional ($29/month) includes unlimited projects, 50GB storage, and priority support. Enterprise ($99/month) includes everything in Professional plus dedicated account manager, SSO, and custom integrations."
+  },
+  {
+    "id": "3",
+    "text": "To reset your TechFlow password, go to the login page and click 'Forgot Password'. Enter your registered email address and you will receive a reset link within 5 minutes. The reset link expires after 24 hours. If you don't receive the email, check your spam folder or contact support at help@techflow.com."
+  },
+  {
+    "id": "4",
+    "text": "TechFlow's API rate limits are as follows: Starter plan gets 100 requests per minute, Professional plan gets 1000 requests per minute, and Enterprise plan gets 10000 requests per minute. If you exceed your rate limit, requests will return a 429 status code. You can monitor your current usage in the dashboard under Settings > API Usage."
+  },
+  {
+    "id": "5",
+    "text": "TechFlow was founded in 2019 by Sarah Chen and Marcus Johnson in Austin, Texas. The company started as a project management tool for small development teams and has since grown to serve over 50,000 businesses worldwide. TechFlow went through Y Combinator in 2020 and raised a Series B of $45 million in 2023."
+  },
+  {
+    "id": "6",
+    "text": "TechFlow integrates with over 200 third-party services including Slack, GitHub, Jira, Google Workspace, and Microsoft 365. To set up an integration, navigate to Settings > Integrations in your dashboard. Each integration requires authorization with the third-party service. Custom integrations can be built using the TechFlow REST API, available on the Professional plan and above."
+  },
+  {
+    "id": "7",
+    "text": "TechFlow's data is encrypted at rest using AES-256 and in transit using TLS 1.3. All data is stored in SOC 2 Type II certified data centers located in the US and EU. Customers on the Enterprise plan can choose their data residency region. TechFlow undergoes annual third-party security audits and maintains ISO 27001 certification."
+  },
+  {
+    "id": "8",
+    "text": "TechFlow's uptime SLA guarantees 99.9% availability for Professional plans and 99.99% for Enterprise plans. Scheduled maintenance windows are announced 72 hours in advance and typically occur on Sunday nights between 2-4 AM UTC. In the event of unplanned downtime, status updates are posted to status.techflow.com and the @TechFlowStatus Twitter account."
+  },
+  {
+    "id": "9",
+    "text": "New employees at TechFlow receive a company laptop, $500 home office stipend, and access to all internal tools on their first day. The onboarding program spans two weeks and includes sessions on company culture, product training, and team introductions. Each new hire is assigned a buddy from their team for the first 90 days."
+  },
+  {
+    "id": "10",
+    "text": "TechFlow's mobile app is available on both iOS and Android. It supports all core features including project management, real-time messaging, and file sharing. Push notifications can be customized per project in the app settings. The mobile app requires iOS 15+ or Android 12+ and syncs automatically with the web version."
+  }
+]
