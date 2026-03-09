@@ -15,15 +15,19 @@ import sys
 
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
-import chromadb
-import ollama
-
-# Silence broken telemetry (capture() signature bug in this chromadb version)
+# below code is used to prevent the warning, a compatibility layer to allow posthog-capture calls in the format posthog.capture(distinct_id, event, properties)
 try:
-    from chromadb.telemetry.product import posthog
-    posthog.capture = lambda *args, **kwargs: None
+    import posthog
+
+    def _capture_noop(*args, **kwargs):
+        return None
+
+    posthog.capture = _capture_noop
 except Exception:
     pass
+
+import chromadb
+import ollama
 
 # ---------------------------------------------------------------------------
 # Configuration - change these to match your setup
