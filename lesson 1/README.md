@@ -149,7 +149,7 @@ python3 rag.py
 ```
 data.json          — Your knowledge base (swap this with your own data)
 rag.py             — The RAG pipeline: load → embed → store → retrieve → generate
-rag_flowchart.svg  — Visual flowchart of the pipeline
+flowchart.svg  — Visual flowchart of the pipeline
 ```
 
 ## Using Your Own Data
