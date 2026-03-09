@@ -10,10 +10,20 @@ How it works:
 """
 
 import json
+import os
 import sys
+
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
 import chromadb
 import ollama
+
+# Silence broken telemetry (capture() signature bug in this chromadb version)
+try:
+    from chromadb.telemetry.product import posthog
+    posthog.capture = lambda *args, **kwargs: None
+except Exception:
+    pass
 
 # ---------------------------------------------------------------------------
 # Configuration - change these to match your setup
@@ -88,6 +98,7 @@ def retrieve(collection: chromadb.Collection, query: str, n_results: int = TOP_K
     """
     query_embedding = ollama.embed(model=EMBED_MODEL, input=query)["embeddings"][0]
 
+    n_results = min(n_results, collection.count())
     results = collection.query(query_embeddings=[query_embedding], n_results=n_results)
     return results["documents"][0]  # list of text strings
 
@@ -100,6 +111,9 @@ def generate_answer(query: str, context_chunks: list[str]) -> str:
     Builds a prompt that includes the retrieved context,
     then asks the LLM to answer based only on that context.
     """
+    print(f"Generating answer using '{LLM_MODEL}' with {len(context_chunks)} context chunks...")
+	# print context_chunk
+    
     context = "\n\n---\n\n".join(context_chunks)
 
     prompt = (

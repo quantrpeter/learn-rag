@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 820" width="520" height="820" font-family="Segoe UI, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="520" height="820" fill="#f8f9fa" rx="12"/>
+
+  <!-- Title -->
+  <text x="260" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a2e">RAG Pipeline Flowchart</text>
+
+  <!-- ── Step 1: LOAD ── -->
+  <rect x="110" y="60" width="300" height="70" rx="10" fill="#4361ee" stroke="#3a56d4" stroke-width="1.5"/>
+  <text x="260" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Step 1 — LOAD</text>
+  <text x="260" y="108" text-anchor="middle" font-size="11" fill="#c8d3ff">Read data.json (array of {id, text})</text>
+  <text x="260" y="124" text-anchor="middle" font-size="11" fill="#c8d3ff">→ list of document dicts</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="260" y1="130" x2="260" y2="158" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ── Step 2: EMBED ── -->
+  <rect x="110" y="158" width="300" height="70" rx="10" fill="#7209b7" stroke="#6208a0" stroke-width="1.5"/>
+  <text x="260" y="186" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Step 2 — EMBED</text>
+  <text x="260" y="206" text-anchor="middle" font-size="11" fill="#e0bfff">ollama.embed(model="mxbai-embed-large")</text>
+  <text x="260" y="222" text-anchor="middle" font-size="11" fill="#e0bfff">Each text → dense vector</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="260" y1="228" x2="260" y2="256" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ── Step 3: STORE ── -->
+  <rect x="110" y="256" width="300" height="70" rx="10" fill="#0077b6" stroke="#0066a0" stroke-width="1.5"/>
+  <text x="260" y="284" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Step 3 — STORE</text>
+  <text x="260" y="304" text-anchor="middle" font-size="11" fill="#b8e0f7">ChromaDB PersistentClient (./chroma_db)</text>
+  <text x="260" y="320" text-anchor="middle" font-size="11" fill="#b8e0f7">collection.add(ids, documents, embeddings)</text>
+
+  <!-- Arrow 3→diamond -->
+  <line x1="260" y1="326" x2="260" y2="374" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ── Decision: User Question ── -->
+  <polygon points="260,354 380,404 260,454 140,404" fill="#f4a261" stroke="#e08040" stroke-width="1.5"/>
+  <text x="260" y="399" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">User Query?</text>
+  <text x="260" y="415" text-anchor="middle" font-size="10" fill="#1a1a1a">quit → exit</text>
+
+  <!-- quit exit label -->
+  <text x="410" y="410" font-size="10" fill="#666">quit/exit</text>
+  <line x1="380" y1="404" x2="440" y2="404" stroke="#999" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="450" y="408" font-size="11" font-weight="bold" fill="#c0392b">END</text>
+
+  <!-- Arrow diamond→4 -->
+  <line x1="260" y1="454" x2="260" y2="482" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="270" y="472" font-size="10" fill="#555">new query</text>
+
+  <!-- ── Step 4: QUERY / RETRIEVE ── -->
+  <rect x="110" y="482" width="300" height="80" rx="10" fill="#2d6a4f" stroke="#226045" stroke-width="1.5"/>
+  <text x="260" y="509" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Step 4 — RETRIEVE</text>
+  <text x="260" y="529" text-anchor="middle" font-size="11" fill="#b7e4c7">Embed query → query vector</text>
+  <text x="260" y="545" text-anchor="middle" font-size="11" fill="#b7e4c7">collection.query(top_k=3)</text>
+  <text x="260" y="561" text-anchor="middle" font-size="11" fill="#b7e4c7">→ top-K most similar chunks</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="260" y1="562" x2="260" y2="590" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ── Step 5: GENERATE ── -->
+  <rect x="110" y="590" width="300" height="80" rx="10" fill="#d62828" stroke="#b52020" stroke-width="1.5"/>
+  <text x="260" y="617" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Step 5 — GENERATE</text>
+  <text x="260" y="637" text-anchor="middle" font-size="11" fill="#ffc8c8">Build prompt: context + question</text>
+  <text x="260" y="653" text-anchor="middle" font-size="11" fill="#ffc8c8">ollama.chat(model="llama3.2")</text>
+  <text x="260" y="669" text-anchor="middle" font-size="11" fill="#ffc8c8">→ grounded answer</text>
+
+  <!-- Arrow 5→output -->
+  <line x1="260" y1="670" x2="260" y2="698" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ── Output ── -->
+  <rect x="140" y="698" width="240" height="44" rx="22" fill="#023e8a" stroke="#012d6a" stroke-width="1.5"/>
+  <text x="260" y="724" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Print Answer to User</text>
+
+  <!-- Loop arrow back to diamond -->
+  <path d="M 110 720 Q 50 720 50 404 Q 50 370 140 380" fill="none" stroke="#888" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arr)"/>
+  <text x="18" y="560" font-size="10" fill="#888" transform="rotate(-90,18,560)">loop</text>
+
+  <!-- Legend -->
+  <rect x="30" y="760" width="460" height="44" rx="8" fill="#e9ecef" stroke="#ced4da"/>
+  <rect x="44" y="774" width="14" height="14" rx="3" fill="#4361ee"/>
+  <text x="63" y="785" font-size="10" fill="#333">Load</text>
+  <rect x="94" y="774" width="14" height="14" rx="3" fill="#7209b7"/>
+  <text x="113" y="785" font-size="10" fill="#333">Embed</text>
+  <rect x="150" y="774" width="14" height="14" rx="3" fill="#0077b6"/>
+  <text x="169" y="785" font-size="10" fill="#333">Store</text>
+  <polygon points="215,781 224,786 215,791 206,786" fill="#f4a261"/>
+  <text x="229" y="790" font-size="10" fill="#333">Decision</text>
+  <rect x="285" y="774" width="14" height="14" rx="3" fill="#2d6a4f"/>
+  <text x="304" y="785" font-size="10" fill="#333">Retrieve</text>
+  <rect x="352" y="774" width="14" height="14" rx="3" fill="#d62828"/>
+  <text x="371" y="785" font-size="10" fill="#333">Generate</text>
+  <rect x="416" y="774" width="14" height="14" rx="3" fill="#023e8a"/>
+  <text x="435" y="785" font-size="10" fill="#333">Output</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#666"/>
+    </marker>
+  </defs>
+
+</svg>

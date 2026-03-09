@@ -2,25 +2,14 @@
 
 A minimal, hands-on project to understand **Retrieval-Augmented Generation (RAG)**.
 
+## Pipeline Flowchart
+
+![RAG Pipeline](rag_flowchart.svg)
+
 ## What is RAG?
 
 LLMs are powerful, but they only know what was in their training data. RAG solves this
 by giving the model **your own data** at query time:
-
-```
-┌──────────────┐      ┌──────────────────┐      ┌─────────────┐
-│  Your query  │─────▶│  Vector Database  │─────▶│  Retrieved  │
-│              │      │  (find similar    │      │  chunks     │
-└──────────────┘      │   documents)      │      └──────┬──────┘
-                      └──────────────────┘             │
-                                                       ▼
-                                              ┌────────────────┐
-                                              │  LLM generates │
-                                              │  answer using   │
-                                              │  your data as   │
-                                              │  context        │
-                                              └────────────────┘
-```
 
 **Without RAG:** "What is TechFlow's return policy?" → LLM has no idea, makes something up.
 
@@ -35,6 +24,106 @@ passes it to the LLM, and you get an accurate, grounded answer.
 | **Vector Database** | A database optimized for storing embeddings and finding the closest matches (ChromaDB in our case). |
 | **Retrieval** | Searching the vector DB for chunks most relevant to the user's question. |
 | **Augmented Generation** | Feeding retrieved chunks as context into the LLM prompt so it answers based on your data. |
+
+---
+
+## Deep Dive: Concepts Explained
+
+### Why do we need Embedding?
+
+Computers can't measure "similarity" between raw text strings. Embedding converts text
+into a **vector** — a list of ~1000 numbers — where position in that high-dimensional
+space encodes *meaning*. Texts with similar meaning end up geometrically close to each
+other, so you can compare them with simple math (cosine similarity / dot product).
+
+Without embedding you'd be stuck with keyword search (did the word appear?).
+With embeddings you get **semantic search** (does this *mean* the same thing?).
+
+### What does `mxbai-embed-large` do?
+
+It is a **text embedding model** trained by MixedBread AI. You feed it a string; it
+outputs a fixed-size vector (1024 floats). Internally it is a transformer encoder
+fine-tuned on contrastive learning tasks so that:
+
+- `"dog"` and `"puppy"` → vectors that are **close**
+- `"dog"` and `"quantum physics"` → vectors that are **far apart**
+
+It runs locally via Ollama — no API calls needed.
+
+### What does RETRIEVE do?
+
+```
+User question (text)
+        ↓
+  Embed with mxbai-embed-large
+        ↓
+  Query vector  [0.12, -0.87, 0.44, ...]
+        ↓
+  ChromaDB scans all stored doc vectors
+  and finds the TOP_K=3 closest ones
+  (by cosine distance)
+        ↓
+  Returns those 3 text chunks
+```
+
+It answers: **"Which stored documents are most relevant to this question?"** — purely
+by geometry, no keyword matching.
+
+### Relationship between RETRIEVE and GENERATE
+
+RETRIEVE feeds GENERATE. That is the entire point of RAG.
+
+```
+RETRIEVE                           GENERATE
+────────                           ────────
+question → embed → vector search   │
+→ top-3 most relevant text chunks ──→ stuffed into the prompt as "Context:"
+                                   │
+                                   └→ LLM answers using ONLY that context
+```
+
+In `rag.py`, the handoff happens explicitly in `main()`:
+
+```python
+context_chunks = retrieve(collection, query)    # list of strings
+answer = generate_answer(query, context_chunks) # passed straight in
+```
+
+Those chunks become the grounding material inside `generate_answer`:
+
+```python
+context = "\n\n---\n\n".join(context_chunks)
+prompt = (
+    "Use ONLY the following context to answer ...\n\n"
+    f"Context:\n{context}\n\n"   # ← retrieved chunks injected here
+    f"Question: {query}"
+)
+```
+
+- **Without RETRIEVE** — the LLM only has its training weights and hallucinates.
+- **Without GENERATE** — you have relevant chunks but no synthesized answer.
+
+RETRIEVE narrows the haystack to the right 3 needles; GENERATE reads those needles
+and writes a coherent answer. Neither is useful alone.
+
+---
+
+## Troubleshooting
+
+### `Failed to send telemetry event ... capture() takes 1 positional argument but 3 were given`
+
+A bug in the installed ChromaDB version — its internal telemetry `capture()` method
+has a broken signature. It is harmless (the pipeline still works correctly).
+The fix in `rag.py` sets `ANONYMIZED_TELEMETRY=False` **before** `import chromadb`
+so ChromaDB never attempts to fire the event.
+
+### `Number of requested results N is greater than number of elements in index M`
+
+`TOP_K` is larger than the number of documents in your collection. ChromaDB
+auto-corrects it. The fix in `rag.py` caps `n_results` to `collection.count()`
+before querying, which silences the warning.
+
+---
 
 ## Prerequisites
 
@@ -58,8 +147,9 @@ python3 rag.py
 ## Project Structure
 
 ```
-data.json    — Your knowledge base (swap this with your own data)
-rag.py       — The RAG pipeline: load → embed → store → retrieve → generate
+data.json          — Your knowledge base (swap this with your own data)
+rag.py             — The RAG pipeline: load → embed → store → retrieve → generate
+rag_flowchart.svg  — Visual flowchart of the pipeline
 ```
 
 ## Using Your Own Data
