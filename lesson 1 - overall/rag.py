@@ -116,7 +116,10 @@ def generate_answer(query: str, context_chunks: list[str]) -> str:
     then asks the LLM to answer based only on that context.
     """
     print(f"Generating answer using '{LLM_MODEL}' with {len(context_chunks)} context chunks...")
-	# print context_chunk
+    # print context_chunk
+    # for i, chunk in enumerate(context_chunks, 1):
+    #     print(f"\n[Context chunk {i}]\n{chunk}\n")
+    
     
     context = "\n\n---\n\n".join(context_chunks)
 
