@@ -4,7 +4,7 @@ A minimal, hands-on project to understand **Retrieval-Augmented Generation (RAG)
 
 ## Pipeline Flowchart
 
-![RAG Pipeline](rag_flowchart.svg)
+![RAG Pipeline](flowchart.svg)
 
 ## What is RAG?
 
