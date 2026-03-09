@@ -87,10 +87,24 @@ class RAGExplainer(VoiceoverScene):
         self.set_speech_service(
             EdgeTTSService(voice="zh-HK-HiuMaanNeural", rate="+0%")
         )
-        self.camera.background_color = C_BG
+        self.camera.background_color = BLACK
+
+        self.bg_image = ImageMobject("wallpaper1.jpg")
+        self.bg_image.height = config.frame_height
+        self.bg_image.width = config.frame_width
+        self.add(self.bg_image)
+
+        self.bg_overlay = Rectangle(
+            width=config.frame_width + 0.5,
+            height=config.frame_height + 0.5,
+            fill_color=BLACK,
+            fill_opacity=0.55,
+            stroke_width=0,
+        )
+        self.add(self.bg_overlay)
 
         self.watermark = self.zh(
-            "香港編程學會", font_size=18, color=C_DIM
+            "香港編程學會", font_size=18, color="#9999bb"
         ).to_corner(UL, buff=0.3)
         self.add(self.watermark)
 
@@ -113,7 +127,8 @@ class RAGExplainer(VoiceoverScene):
         return Text(txt, **kw)
 
     def clear(self):
-        to_fade = [m for m in self.mobjects if m is not self.watermark]
+        keep = {self.bg_image, self.bg_overlay, self.watermark}
+        to_fade = [m for m in self.mobjects if m not in keep]
         if to_fade:
             self.play(*[FadeOut(m) for m in to_fade], run_time=0.5)
 

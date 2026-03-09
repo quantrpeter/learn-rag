@@ -636,5 +636,291 @@
     },
     "original_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3",
     "final_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3"
+  },
+  {
+    "input_text": "\u5927\u5bb6\u597d\uff01\u4eca\u65e5\u6211\u54cb\u569f\u5b78\u4e0b RAG\uff0c\u5373\u4fc2 Retrieval Augmented Generation\uff0c\u4e2d\u6587\u53eb\u505a\u300c\u6aa2\u7d22\u589e\u5f37\u751f\u6210\u300d\u3002",
+    "input_data": {
+      "input_text": "\u5927\u5bb6\u597d\uff01\u4eca\u65e5\u6211\u54cb\u569f\u5b78\u4e0b RAG\uff0c\u5373\u4fc2 Retrieval Augmented Generation\uff0c\u4e2d\u6587\u53eb\u505a\u300c\u6aa2\u7d22\u589e\u5f37\u751f\u6210\u300d\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "da-jia-hao-jin-ri-wo-di-li-xue-xia-rag-ji-xi-71411d5e.mp3",
+    "final_audio": "da-jia-hao-jin-ri-wo-di-li-xue-xia-rag-ji-xi-71411d5e.mp3"
+  },
+  {
+    "input_text": "\u9996\u5148\uff0c\u5927\u578b\u8a9e\u8a00\u6a21\u578b\uff0c\u5373\u4fc2 LLM\uff0c\u96d6\u7136\u597d\u53fb\uff0c\u4f46\u4fc2\u4f62\u53ea\u4fc2\u77e5\u9053\u8a13\u7df4\u6578\u64da\u5165\u9762\u5605\u5622\u3002\u5982\u679c\u4f60\u554f\u4f62\u4f60\u81ea\u5df1\u5605\u8cc7\u6599\uff0c\u4f8b\u5982\u300cPeter \u4f4f\u55ba\u908a\u5ea6\u300d\uff0c\u4f62\u4fc2\u5514\u77e5\u9053\u35ce\uff0c\u4ef2\u53ef\u80fd\u6703\u4e82\u564f\u6dfb\u3002\u5462\u500b\u5c31\u4fc2\u6240\u8b02\u5605\u5e7b\u89ba\u554f\u984c\u3002",
+    "input_data": {
+      "input_text": "\u9996\u5148\uff0c\u5927\u578b\u8a9e\u8a00\u6a21\u578b\uff0c\u5373\u4fc2 LLM\uff0c\u96d6\u7136\u597d\u53fb\uff0c\u4f46\u4fc2\u4f62\u53ea\u4fc2\u77e5\u9053\u8a13\u7df4\u6578\u64da\u5165\u9762\u5605\u5622\u3002\u5982\u679c\u4f60\u554f\u4f62\u4f60\u81ea\u5df1\u5605\u8cc7\u6599\uff0c\u4f8b\u5982\u300cPeter \u4f4f\u55ba\u908a\u5ea6\u300d\uff0c\u4f62\u4fc2\u5514\u77e5\u9053\u35ce\uff0c\u4ef2\u53ef\u80fd\u6703\u4e82\u564f\u6dfb\u3002\u5462\u500b\u5c31\u4fc2\u6240\u8b02\u5605\u5e7b\u89ba\u554f\u984c\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "shou-xian-da-xing-yu-yan-mo-xing-ji-xi-llm-sui-ran-02c3e7db.mp3",
+    "final_audio": "shou-xian-da-xing-yu-yan-mo-xing-ji-xi-llm-sui-ran-02c3e7db.mp3"
+  },
+  {
+    "input_text": "RAG \u5605\u505a\u6cd5\u597d\u7c21\u55ae\u3002\u55ba\u56de\u7b54\u554f\u984c\u4e4b\u524d\uff0c\u5148\u55ba\u4f60\u81ea\u5df1\u5605\u6578\u64da\u5165\u9762\u6435\u5230\u6700\u76f8\u95dc\u5605\u8cc7\u6599\uff0c\u7136\u5f8c\u5c07\u5462\u5572\u8cc7\u6599\u50b3\u4ffe LLM\uff0c\u7b49\u4f62\u53c3\u8003\u4f4f\u569f\u56de\u7b54\u3002\u5481\u6a23\u7b54\u6848\u5c31\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u3002",
+    "input_data": {
+      "input_text": "RAG \u5605\u505a\u6cd5\u597d\u7c21\u55ae\u3002\u55ba\u56de\u7b54\u554f\u984c\u4e4b\u524d\uff0c\u5148\u55ba\u4f60\u81ea\u5df1\u5605\u6578\u64da\u5165\u9762\u6435\u5230\u6700\u76f8\u95dc\u5605\u8cc7\u6599\uff0c\u7136\u5f8c\u5c07\u5462\u5572\u8cc7\u6599\u50b3\u4ffe LLM\uff0c\u7b49\u4f62\u53c3\u8003\u4f4f\u569f\u56de\u7b54\u3002\u5481\u6a23\u7b54\u6848\u5c31\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "rag-kai-zuo-fa-hao-jian-dan-xi-hui-da-wen-ti-zhi-b66b493b.mp3",
+    "final_audio": "rag-kai-zuo-fa-hao-jian-dan-xi-hui-da-wen-ti-zhi-b66b493b.mp3"
+  },
+  {
+    "input_text": "RAG \u5605\u6d41\u7a0b\u7e3d\u5171\u6709\u4e94\u500b\u6b65\u9a5f\uff0c\u6211\u54cb\u9010\u500b\u569f\u7747\u4e0b\u4f62\u54cb\u5605\u4ee3\u78bc\u3002",
+    "input_data": {
+      "input_text": "RAG \u5605\u6d41\u7a0b\u7e3d\u5171\u6709\u4e94\u500b\u6b65\u9a5f\uff0c\u6211\u54cb\u9010\u500b\u569f\u7747\u4e0b\u4f62\u54cb\u5605\u4ee3\u78bc\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "rag-kai-liu-cheng-zong-gong-you-wu-ge-bu-zou-wo-di-f2687448.mp3",
+    "final_audio": "rag-kai-liu-cheng-zong-gong-you-wu-ge-bu-zou-wo-di-f2687448.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e00\u6b65 LOAD\u3002load_documents \u51fd\u6578\u597d\u7c21\u55ae\uff0c\u7528 Python \u5605 json.load \u8b80\u5165\u4e00\u500b JSON \u6587\u4ef6\u3002\u5165\u9762\u6bcf\u500b entry \u90fd\u6709 id \u540c text \u5169\u500b\u5b57\u6bb5\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e00\u6b65 LOAD\u3002load_documents \u51fd\u6578\u597d\u7c21\u55ae\uff0c\u7528 Python \u5605 json.load \u8b80\u5165\u4e00\u500b JSON \u6587\u4ef6\u3002\u5165\u9762\u6bcf\u500b entry \u90fd\u6709 id \u540c text \u5169\u500b\u5b57\u6bb5\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-yi-bu-load-load-documents-han-shu-hao-jian-dan-2c4c7124.mp3",
+    "final_audio": "di-yi-bu-load-load-documents-han-shu-hao-jian-dan-2c4c7124.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e8c\u6b65 EMBED\uff0c\u5411\u91cf\u5316\u3002\u6211\u54cb\u7528 ollama.embed \u5462\u500b\u51fd\u6578\uff0c\u50b3\u5165 embedding \u6a21\u578b\u540d\u540c\u6587\u5b57\uff0c\u4f62\u5c31\u6703\u8fd4\u56de\u4e00\u500b\u5411\u91cf\u3002\u6211\u54cb\u9010\u500b\u6587\u6a94\u5481\u505a\uff0c\u5c07\u6bcf\u500b\u90fd\u5411\u91cf\u5316\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e8c\u6b65 EMBED\uff0c\u5411\u91cf\u5316\u3002\u6211\u54cb\u7528 ollama.embed \u5462\u500b\u51fd\u6578\uff0c\u50b3\u5165 embedding \u6a21\u578b\u540d\u540c\u6587\u5b57\uff0c\u4f62\u5c31\u6703\u8fd4\u56de\u4e00\u500b\u5411\u91cf\u3002\u6211\u54cb\u9010\u500b\u6587\u6a94\u5481\u505a\uff0c\u5c07\u6bcf\u500b\u90fd\u5411\u91cf\u5316\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-er-bu-embed-xiang-liang-hua-wo-di-yong-ollama-7f1deb4d.mp3",
+    "final_audio": "di-er-bu-embed-xiang-liang-hua-wo-di-yong-ollama-7f1deb4d.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e09\u6b65 STORE\uff0c\u5132\u5b58\u3002\u7528 ChromaDB \u5efa\u7acb\u4e00\u500b PersistentClient\uff0c\u5373\u4fc2\u6301\u4e45\u5316\u5605\u5ba2\u6236\u7aef\u3002\u7136\u5f8c\u5efa\u7acb\u4e00\u500b collection\uff0c\u7528 add \u65b9\u6cd5\u5c07\u6240\u6709 id\u3001\u6587\u5b57\u540c\u5411\u91cf\u5b58\u5165\u53bb\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e09\u6b65 STORE\uff0c\u5132\u5b58\u3002\u7528 ChromaDB \u5efa\u7acb\u4e00\u500b PersistentClient\uff0c\u5373\u4fc2\u6301\u4e45\u5316\u5605\u5ba2\u6236\u7aef\u3002\u7136\u5f8c\u5efa\u7acb\u4e00\u500b collection\uff0c\u7528 add \u65b9\u6cd5\u5c07\u6240\u6709 id\u3001\u6587\u5b57\u540c\u5411\u91cf\u5b58\u5165\u53bb\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-san-bu-store-chu-cun-yong-chromadb-jian-li-yi-957dd7b2.mp3",
+    "final_audio": "di-san-bu-store-chu-cun-yong-chromadb-jian-li-yi-957dd7b2.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u56db\u6b65 RETRIEVE\uff0c\u6aa2\u7d22\u3002\u9996\u5148\u5c07\u7528\u6236\u5605\u554f\u984c\u7528\u540c\u4e00\u500b embedding \u6a21\u578b\u5411\u91cf\u5316\uff0c\u7136\u5f8c\u7528 collection.query \u55ba\u8cc7\u6599\u5eab\u5165\u9762\u6435\u51fa\u6700\u63a5\u8fd1\u5605 TOP K \u500b\u6587\u6a94\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u56db\u6b65 RETRIEVE\uff0c\u6aa2\u7d22\u3002\u9996\u5148\u5c07\u7528\u6236\u5605\u554f\u984c\u7528\u540c\u4e00\u500b embedding \u6a21\u578b\u5411\u91cf\u5316\uff0c\u7136\u5f8c\u7528 collection.query \u55ba\u8cc7\u6599\u5eab\u5165\u9762\u6435\u51fa\u6700\u63a5\u8fd1\u5605 TOP K \u500b\u6587\u6a94\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-si-bu-retrieve-jian-suo-shou-xian-jiang-yong-hu-9aece784.mp3",
+    "final_audio": "di-si-bu-retrieve-jian-suo-shou-xian-jiang-yong-hu-9aece784.mp3"
+  },
+  {
+    "input_text": "\u6700\u5f8c\u4e00\u6b65 GENERATE\uff0c\u751f\u6210\u7b54\u6848\u3002\u5c07\u6435\u5230\u5605\u6587\u6a94\u5408\u4f75\u505a context\uff0c\u653e\u5165 prompt\u3002\u660e\u78ba\u8a71\u4ffe LLM \u77e5\u8981\u6839\u64da context \u569f\u56de\u7b54\uff0c\u7136\u5f8c\u7528 ollama.chat \u751f\u6210\u6700\u7d42\u7b54\u6848\u3002",
+    "input_data": {
+      "input_text": "\u6700\u5f8c\u4e00\u6b65 GENERATE\uff0c\u751f\u6210\u7b54\u6848\u3002\u5c07\u6435\u5230\u5605\u6587\u6a94\u5408\u4f75\u505a context\uff0c\u653e\u5165 prompt\u3002\u660e\u78ba\u8a71\u4ffe LLM \u77e5\u8981\u6839\u64da context \u569f\u56de\u7b54\uff0c\u7136\u5f8c\u7528 ollama.chat \u751f\u6210\u6700\u7d42\u7b54\u6848\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "zui-hou-yi-bu-generate-sheng-cheng-da-an-jiang-wen-d81de72a.mp3",
+    "final_audio": "zui-hou-yi-bu-generate-sheng-cheng-da-an-jiang-wen-d81de72a.mp3"
+  },
+  {
+    "input_text": "\u6210\u500b\u6d41\u7a0b\u5c31\u4fc2\uff1a\u8f09\u5165\u6578\u64da\uff0c\u5411\u91cf\u5316\uff0c\u5132\u5b58\uff0c\u6aa2\u7d22\uff0c\u6700\u5f8c\u751f\u6210\u7b54\u6848\u3002RETRIEVE \u6435\u5230\u5605\u8cc7\u6599\u6703\u76f4\u63a5\u50b3\u4ffe GENERATE\uff0c\u5462\u500b\u5c31\u4fc2 RAG \u5605\u6838\u5fc3\u3002",
+    "input_data": {
+      "input_text": "\u6210\u500b\u6d41\u7a0b\u5c31\u4fc2\uff1a\u8f09\u5165\u6578\u64da\uff0c\u5411\u91cf\u5316\uff0c\u5132\u5b58\uff0c\u6aa2\u7d22\uff0c\u6700\u5f8c\u751f\u6210\u7b54\u6848\u3002RETRIEVE \u6435\u5230\u5605\u8cc7\u6599\u6703\u76f4\u63a5\u50b3\u4ffe GENERATE\uff0c\u5462\u500b\u5c31\u4fc2 RAG \u5605\u6838\u5fc3\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "cheng-ge-liu-cheng-jiu-xi-zai-ru-shu-ju-xiang-933f27bf.mp3",
+    "final_audio": "cheng-ge-liu-cheng-jiu-xi-zai-ru-shu-ju-xiang-933f27bf.mp3"
+  },
+  {
+    "input_text": "\u5982\u679c\u60f3\u7747\u5b8c\u6574\u5605 source code\uff0c\u53ef\u4ee5\u53bb GitHub \u6435 quantrpeter \u5605 learn-rag repo\u3002\u5165\u9762\u5605 lesson 1 overall \u6587\u4ef6\u593e\u5c31\u6709\u6652\u6240\u6709\u4ee3\u78bc\uff0c\u5305\u62ec rag.py \u540c data.json\uff0c\u5927\u5bb6\u8a18\u5f97\u53bb\u7747\u4e0b\u3002",
+    "input_data": {
+      "input_text": "\u5982\u679c\u60f3\u7747\u5b8c\u6574\u5605 source code\uff0c\u53ef\u4ee5\u53bb GitHub \u6435 quantrpeter \u5605 learn-rag repo\u3002\u5165\u9762\u5605 lesson 1 overall \u6587\u4ef6\u593e\u5c31\u6709\u6652\u6240\u6709\u4ee3\u78bc\uff0c\u5305\u62ec rag.py \u540c data.json\uff0c\u5927\u5bb6\u8a18\u5f97\u53bb\u7747\u4e0b\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "ru-guo-xiang-di-wan-zheng-kai-source-code-ke-yi-qu-0316473d.mp3",
+    "final_audio": "ru-guo-xiang-di-wan-zheng-kai-source-code-ke-yi-qu-0316473d.mp3"
+  },
+  {
+    "input_text": "\u7e3d\u7d50\u4e00\u4e0b\u3002RAG \u5373\u4fc2\u6aa2\u7d22\u52a0\u751f\u6210\uff0c\u4ee4 LLM \u53ef\u4ee5\u5229\u7528\u4f60\u81ea\u5df1\u5605\u6578\u64da\u569f\u56de\u7b54\u554f\u984c\u3002\u6210\u500b\u6d41\u7a0b\u6709\u4e94\u500b\u6b65\u9a5f\uff1a\u8f09\u5165\u6578\u64da\u3001\u5411\u91cf\u5316\u3001\u5132\u5b58\u3001\u6aa2\u7d22\u3001\u751f\u6210\u7b54\u6848\u3002\u6709\u5497 RAG\uff0cLLM \u5605\u7b54\u6848\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u5587\u3002",
+    "input_data": {
+      "input_text": "\u7e3d\u7d50\u4e00\u4e0b\u3002RAG \u5373\u4fc2\u6aa2\u7d22\u52a0\u751f\u6210\uff0c\u4ee4 LLM \u53ef\u4ee5\u5229\u7528\u4f60\u81ea\u5df1\u5605\u6578\u64da\u569f\u56de\u7b54\u554f\u984c\u3002\u6210\u500b\u6d41\u7a0b\u6709\u4e94\u500b\u6b65\u9a5f\uff1a\u8f09\u5165\u6578\u64da\u3001\u5411\u91cf\u5316\u3001\u5132\u5b58\u3001\u6aa2\u7d22\u3001\u751f\u6210\u7b54\u6848\u3002\u6709\u5497 RAG\uff0cLLM \u5605\u7b54\u6848\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u5587\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "zong-jie-yi-xia-rag-ji-xi-jian-suo-jia-sheng-cheng-b3bb58fb.mp3",
+    "final_audio": "zong-jie-yi-xia-rag-ji-xi-jian-suo-jia-sheng-cheng-b3bb58fb.mp3"
+  },
+  {
+    "input_text": "\u591a\u8b1d\u6536\u7747\uff01\u8a18\u5f97\u53bb GitHub \u7747\u5b8c\u6574\u4ee3\u78bc\uff0c\u540c\u57cb\u7e7c\u7e8c\u8ddf\u4f4f\u5b78\u4e0b\u4e00\u8ab2\u5587\u3002",
+    "input_data": {
+      "input_text": "\u591a\u8b1d\u6536\u7747\uff01\u8a18\u5f97\u53bb GitHub \u7747\u5b8c\u6574\u4ee3\u78bc\uff0c\u540c\u57cb\u7e7c\u7e8c\u8ddf\u4f4f\u5b78\u4e0b\u4e00\u8ab2\u5587\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3",
+    "final_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3"
+  },
+  {
+    "input_text": "\u5927\u5bb6\u597d\uff01\u4eca\u65e5\u6211\u54cb\u569f\u5b78\u4e0b RAG\uff0c\u5373\u4fc2 Retrieval Augmented Generation\uff0c\u4e2d\u6587\u53eb\u505a\u300c\u6aa2\u7d22\u589e\u5f37\u751f\u6210\u300d\u3002",
+    "input_data": {
+      "input_text": "\u5927\u5bb6\u597d\uff01\u4eca\u65e5\u6211\u54cb\u569f\u5b78\u4e0b RAG\uff0c\u5373\u4fc2 Retrieval Augmented Generation\uff0c\u4e2d\u6587\u53eb\u505a\u300c\u6aa2\u7d22\u589e\u5f37\u751f\u6210\u300d\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "da-jia-hao-jin-ri-wo-di-li-xue-xia-rag-ji-xi-71411d5e.mp3",
+    "final_audio": "da-jia-hao-jin-ri-wo-di-li-xue-xia-rag-ji-xi-71411d5e.mp3"
+  },
+  {
+    "input_text": "\u9996\u5148\uff0c\u5927\u578b\u8a9e\u8a00\u6a21\u578b\uff0c\u5373\u4fc2 LLM\uff0c\u96d6\u7136\u597d\u53fb\uff0c\u4f46\u4fc2\u4f62\u53ea\u4fc2\u77e5\u9053\u8a13\u7df4\u6578\u64da\u5165\u9762\u5605\u5622\u3002\u5982\u679c\u4f60\u554f\u4f62\u4f60\u81ea\u5df1\u5605\u8cc7\u6599\uff0c\u4f8b\u5982\u300cPeter \u4f4f\u55ba\u908a\u5ea6\u300d\uff0c\u4f62\u4fc2\u5514\u77e5\u9053\u35ce\uff0c\u4ef2\u53ef\u80fd\u6703\u4e82\u564f\u6dfb\u3002\u5462\u500b\u5c31\u4fc2\u6240\u8b02\u5605\u5e7b\u89ba\u554f\u984c\u3002",
+    "input_data": {
+      "input_text": "\u9996\u5148\uff0c\u5927\u578b\u8a9e\u8a00\u6a21\u578b\uff0c\u5373\u4fc2 LLM\uff0c\u96d6\u7136\u597d\u53fb\uff0c\u4f46\u4fc2\u4f62\u53ea\u4fc2\u77e5\u9053\u8a13\u7df4\u6578\u64da\u5165\u9762\u5605\u5622\u3002\u5982\u679c\u4f60\u554f\u4f62\u4f60\u81ea\u5df1\u5605\u8cc7\u6599\uff0c\u4f8b\u5982\u300cPeter \u4f4f\u55ba\u908a\u5ea6\u300d\uff0c\u4f62\u4fc2\u5514\u77e5\u9053\u35ce\uff0c\u4ef2\u53ef\u80fd\u6703\u4e82\u564f\u6dfb\u3002\u5462\u500b\u5c31\u4fc2\u6240\u8b02\u5605\u5e7b\u89ba\u554f\u984c\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "shou-xian-da-xing-yu-yan-mo-xing-ji-xi-llm-sui-ran-02c3e7db.mp3",
+    "final_audio": "shou-xian-da-xing-yu-yan-mo-xing-ji-xi-llm-sui-ran-02c3e7db.mp3"
+  },
+  {
+    "input_text": "RAG \u5605\u505a\u6cd5\u597d\u7c21\u55ae\u3002\u55ba\u56de\u7b54\u554f\u984c\u4e4b\u524d\uff0c\u5148\u55ba\u4f60\u81ea\u5df1\u5605\u6578\u64da\u5165\u9762\u6435\u5230\u6700\u76f8\u95dc\u5605\u8cc7\u6599\uff0c\u7136\u5f8c\u5c07\u5462\u5572\u8cc7\u6599\u50b3\u4ffe LLM\uff0c\u7b49\u4f62\u53c3\u8003\u4f4f\u569f\u56de\u7b54\u3002\u5481\u6a23\u7b54\u6848\u5c31\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u3002",
+    "input_data": {
+      "input_text": "RAG \u5605\u505a\u6cd5\u597d\u7c21\u55ae\u3002\u55ba\u56de\u7b54\u554f\u984c\u4e4b\u524d\uff0c\u5148\u55ba\u4f60\u81ea\u5df1\u5605\u6578\u64da\u5165\u9762\u6435\u5230\u6700\u76f8\u95dc\u5605\u8cc7\u6599\uff0c\u7136\u5f8c\u5c07\u5462\u5572\u8cc7\u6599\u50b3\u4ffe LLM\uff0c\u7b49\u4f62\u53c3\u8003\u4f4f\u569f\u56de\u7b54\u3002\u5481\u6a23\u7b54\u6848\u5c31\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "rag-kai-zuo-fa-hao-jian-dan-xi-hui-da-wen-ti-zhi-b66b493b.mp3",
+    "final_audio": "rag-kai-zuo-fa-hao-jian-dan-xi-hui-da-wen-ti-zhi-b66b493b.mp3"
+  },
+  {
+    "input_text": "RAG \u5605\u6d41\u7a0b\u7e3d\u5171\u6709\u4e94\u500b\u6b65\u9a5f\uff0c\u6211\u54cb\u9010\u500b\u569f\u7747\u4e0b\u4f62\u54cb\u5605\u4ee3\u78bc\u3002",
+    "input_data": {
+      "input_text": "RAG \u5605\u6d41\u7a0b\u7e3d\u5171\u6709\u4e94\u500b\u6b65\u9a5f\uff0c\u6211\u54cb\u9010\u500b\u569f\u7747\u4e0b\u4f62\u54cb\u5605\u4ee3\u78bc\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "rag-kai-liu-cheng-zong-gong-you-wu-ge-bu-zou-wo-di-f2687448.mp3",
+    "final_audio": "rag-kai-liu-cheng-zong-gong-you-wu-ge-bu-zou-wo-di-f2687448.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e00\u6b65 LOAD\u3002load_documents \u51fd\u6578\u597d\u7c21\u55ae\uff0c\u7528 Python \u5605 json.load \u8b80\u5165\u4e00\u500b JSON \u6587\u4ef6\u3002\u5165\u9762\u6bcf\u500b entry \u90fd\u6709 id \u540c text \u5169\u500b\u5b57\u6bb5\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e00\u6b65 LOAD\u3002load_documents \u51fd\u6578\u597d\u7c21\u55ae\uff0c\u7528 Python \u5605 json.load \u8b80\u5165\u4e00\u500b JSON \u6587\u4ef6\u3002\u5165\u9762\u6bcf\u500b entry \u90fd\u6709 id \u540c text \u5169\u500b\u5b57\u6bb5\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-yi-bu-load-load-documents-han-shu-hao-jian-dan-2c4c7124.mp3",
+    "final_audio": "di-yi-bu-load-load-documents-han-shu-hao-jian-dan-2c4c7124.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e8c\u6b65 EMBED\uff0c\u5411\u91cf\u5316\u3002\u6211\u54cb\u7528 ollama.embed \u5462\u500b\u51fd\u6578\uff0c\u50b3\u5165 embedding \u6a21\u578b\u540d\u540c\u6587\u5b57\uff0c\u4f62\u5c31\u6703\u8fd4\u56de\u4e00\u500b\u5411\u91cf\u3002\u6211\u54cb\u9010\u500b\u6587\u6a94\u5481\u505a\uff0c\u5c07\u6bcf\u500b\u90fd\u5411\u91cf\u5316\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e8c\u6b65 EMBED\uff0c\u5411\u91cf\u5316\u3002\u6211\u54cb\u7528 ollama.embed \u5462\u500b\u51fd\u6578\uff0c\u50b3\u5165 embedding \u6a21\u578b\u540d\u540c\u6587\u5b57\uff0c\u4f62\u5c31\u6703\u8fd4\u56de\u4e00\u500b\u5411\u91cf\u3002\u6211\u54cb\u9010\u500b\u6587\u6a94\u5481\u505a\uff0c\u5c07\u6bcf\u500b\u90fd\u5411\u91cf\u5316\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-er-bu-embed-xiang-liang-hua-wo-di-yong-ollama-7f1deb4d.mp3",
+    "final_audio": "di-er-bu-embed-xiang-liang-hua-wo-di-yong-ollama-7f1deb4d.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u4e09\u6b65 STORE\uff0c\u5132\u5b58\u3002\u7528 ChromaDB \u5efa\u7acb\u4e00\u500b PersistentClient\uff0c\u5373\u4fc2\u6301\u4e45\u5316\u5605\u5ba2\u6236\u7aef\u3002\u7136\u5f8c\u5efa\u7acb\u4e00\u500b collection\uff0c\u7528 add \u65b9\u6cd5\u5c07\u6240\u6709 id\u3001\u6587\u5b57\u540c\u5411\u91cf\u5b58\u5165\u53bb\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u4e09\u6b65 STORE\uff0c\u5132\u5b58\u3002\u7528 ChromaDB \u5efa\u7acb\u4e00\u500b PersistentClient\uff0c\u5373\u4fc2\u6301\u4e45\u5316\u5605\u5ba2\u6236\u7aef\u3002\u7136\u5f8c\u5efa\u7acb\u4e00\u500b collection\uff0c\u7528 add \u65b9\u6cd5\u5c07\u6240\u6709 id\u3001\u6587\u5b57\u540c\u5411\u91cf\u5b58\u5165\u53bb\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-san-bu-store-chu-cun-yong-chromadb-jian-li-yi-957dd7b2.mp3",
+    "final_audio": "di-san-bu-store-chu-cun-yong-chromadb-jian-li-yi-957dd7b2.mp3"
+  },
+  {
+    "input_text": "\u7b2c\u56db\u6b65 RETRIEVE\uff0c\u6aa2\u7d22\u3002\u9996\u5148\u5c07\u7528\u6236\u5605\u554f\u984c\u7528\u540c\u4e00\u500b embedding \u6a21\u578b\u5411\u91cf\u5316\uff0c\u7136\u5f8c\u7528 collection.query \u55ba\u8cc7\u6599\u5eab\u5165\u9762\u6435\u51fa\u6700\u63a5\u8fd1\u5605 TOP K \u500b\u6587\u6a94\u3002",
+    "input_data": {
+      "input_text": "\u7b2c\u56db\u6b65 RETRIEVE\uff0c\u6aa2\u7d22\u3002\u9996\u5148\u5c07\u7528\u6236\u5605\u554f\u984c\u7528\u540c\u4e00\u500b embedding \u6a21\u578b\u5411\u91cf\u5316\uff0c\u7136\u5f8c\u7528 collection.query \u55ba\u8cc7\u6599\u5eab\u5165\u9762\u6435\u51fa\u6700\u63a5\u8fd1\u5605 TOP K \u500b\u6587\u6a94\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "di-si-bu-retrieve-jian-suo-shou-xian-jiang-yong-hu-9aece784.mp3",
+    "final_audio": "di-si-bu-retrieve-jian-suo-shou-xian-jiang-yong-hu-9aece784.mp3"
+  },
+  {
+    "input_text": "\u6700\u5f8c\u4e00\u6b65 GENERATE\uff0c\u751f\u6210\u7b54\u6848\u3002\u5c07\u6435\u5230\u5605\u6587\u6a94\u5408\u4f75\u505a context\uff0c\u653e\u5165 prompt\u3002\u660e\u78ba\u8a71\u4ffe LLM \u77e5\u8981\u6839\u64da context \u569f\u56de\u7b54\uff0c\u7136\u5f8c\u7528 ollama.chat \u751f\u6210\u6700\u7d42\u7b54\u6848\u3002",
+    "input_data": {
+      "input_text": "\u6700\u5f8c\u4e00\u6b65 GENERATE\uff0c\u751f\u6210\u7b54\u6848\u3002\u5c07\u6435\u5230\u5605\u6587\u6a94\u5408\u4f75\u505a context\uff0c\u653e\u5165 prompt\u3002\u660e\u78ba\u8a71\u4ffe LLM \u77e5\u8981\u6839\u64da context \u569f\u56de\u7b54\uff0c\u7136\u5f8c\u7528 ollama.chat \u751f\u6210\u6700\u7d42\u7b54\u6848\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "zui-hou-yi-bu-generate-sheng-cheng-da-an-jiang-wen-d81de72a.mp3",
+    "final_audio": "zui-hou-yi-bu-generate-sheng-cheng-da-an-jiang-wen-d81de72a.mp3"
+  },
+  {
+    "input_text": "\u6210\u500b\u6d41\u7a0b\u5c31\u4fc2\uff1a\u8f09\u5165\u6578\u64da\uff0c\u5411\u91cf\u5316\uff0c\u5132\u5b58\uff0c\u6aa2\u7d22\uff0c\u6700\u5f8c\u751f\u6210\u7b54\u6848\u3002RETRIEVE \u6435\u5230\u5605\u8cc7\u6599\u6703\u76f4\u63a5\u50b3\u4ffe GENERATE\uff0c\u5462\u500b\u5c31\u4fc2 RAG \u5605\u6838\u5fc3\u3002",
+    "input_data": {
+      "input_text": "\u6210\u500b\u6d41\u7a0b\u5c31\u4fc2\uff1a\u8f09\u5165\u6578\u64da\uff0c\u5411\u91cf\u5316\uff0c\u5132\u5b58\uff0c\u6aa2\u7d22\uff0c\u6700\u5f8c\u751f\u6210\u7b54\u6848\u3002RETRIEVE \u6435\u5230\u5605\u8cc7\u6599\u6703\u76f4\u63a5\u50b3\u4ffe GENERATE\uff0c\u5462\u500b\u5c31\u4fc2 RAG \u5605\u6838\u5fc3\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "cheng-ge-liu-cheng-jiu-xi-zai-ru-shu-ju-xiang-933f27bf.mp3",
+    "final_audio": "cheng-ge-liu-cheng-jiu-xi-zai-ru-shu-ju-xiang-933f27bf.mp3"
+  },
+  {
+    "input_text": "\u5982\u679c\u60f3\u7747\u5b8c\u6574\u5605 source code\uff0c\u53ef\u4ee5\u53bb GitHub \u6435 quantrpeter \u5605 learn-rag repo\u3002\u5165\u9762\u5605 lesson 1 overall \u6587\u4ef6\u593e\u5c31\u6709\u6652\u6240\u6709\u4ee3\u78bc\uff0c\u5305\u62ec rag.py \u540c data.json\uff0c\u5927\u5bb6\u8a18\u5f97\u53bb\u7747\u4e0b\u3002",
+    "input_data": {
+      "input_text": "\u5982\u679c\u60f3\u7747\u5b8c\u6574\u5605 source code\uff0c\u53ef\u4ee5\u53bb GitHub \u6435 quantrpeter \u5605 learn-rag repo\u3002\u5165\u9762\u5605 lesson 1 overall \u6587\u4ef6\u593e\u5c31\u6709\u6652\u6240\u6709\u4ee3\u78bc\uff0c\u5305\u62ec rag.py \u540c data.json\uff0c\u5927\u5bb6\u8a18\u5f97\u53bb\u7747\u4e0b\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "ru-guo-xiang-di-wan-zheng-kai-source-code-ke-yi-qu-0316473d.mp3",
+    "final_audio": "ru-guo-xiang-di-wan-zheng-kai-source-code-ke-yi-qu-0316473d.mp3"
+  },
+  {
+    "input_text": "\u7e3d\u7d50\u4e00\u4e0b\u3002RAG \u5373\u4fc2\u6aa2\u7d22\u52a0\u751f\u6210\uff0c\u4ee4 LLM \u53ef\u4ee5\u5229\u7528\u4f60\u81ea\u5df1\u5605\u6578\u64da\u569f\u56de\u7b54\u554f\u984c\u3002\u6210\u500b\u6d41\u7a0b\u6709\u4e94\u500b\u6b65\u9a5f\uff1a\u8f09\u5165\u6578\u64da\u3001\u5411\u91cf\u5316\u3001\u5132\u5b58\u3001\u6aa2\u7d22\u3001\u751f\u6210\u7b54\u6848\u3002\u6709\u5497 RAG\uff0cLLM \u5605\u7b54\u6848\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u5587\u3002",
+    "input_data": {
+      "input_text": "\u7e3d\u7d50\u4e00\u4e0b\u3002RAG \u5373\u4fc2\u6aa2\u7d22\u52a0\u751f\u6210\uff0c\u4ee4 LLM \u53ef\u4ee5\u5229\u7528\u4f60\u81ea\u5df1\u5605\u6578\u64da\u569f\u56de\u7b54\u554f\u984c\u3002\u6210\u500b\u6d41\u7a0b\u6709\u4e94\u500b\u6b65\u9a5f\uff1a\u8f09\u5165\u6578\u64da\u3001\u5411\u91cf\u5316\u3001\u5132\u5b58\u3001\u6aa2\u7d22\u3001\u751f\u6210\u7b54\u6848\u3002\u6709\u5497 RAG\uff0cLLM \u5605\u7b54\u6848\u6703\u6e96\u78ba\u597d\u591a\uff0c\u5514\u4f7f\u518d\u9760\u4f30\u5587\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "zong-jie-yi-xia-rag-ji-xi-jian-suo-jia-sheng-cheng-b3bb58fb.mp3",
+    "final_audio": "zong-jie-yi-xia-rag-ji-xi-jian-suo-jia-sheng-cheng-b3bb58fb.mp3"
+  },
+  {
+    "input_text": "\u591a\u8b1d\u6536\u7747\uff01\u8a18\u5f97\u53bb GitHub \u7747\u5b8c\u6574\u4ee3\u78bc\uff0c\u540c\u57cb\u7e7c\u7e8c\u8ddf\u4f4f\u5b78\u4e0b\u4e00\u8ab2\u5587\u3002",
+    "input_data": {
+      "input_text": "\u591a\u8b1d\u6536\u7747\uff01\u8a18\u5f97\u53bb GitHub \u7747\u5b8c\u6574\u4ee3\u78bc\uff0c\u540c\u57cb\u7e7c\u7e8c\u8ddf\u4f4f\u5b78\u4e0b\u4e00\u8ab2\u5587\u3002",
+      "service": "edge_tts",
+      "voice": "zh-HK-HiuMaanNeural",
+      "rate": "+0%"
+    },
+    "original_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3",
+    "final_audio": "duo-xie-shou-di-ji-de-qu-github-di-wan-zheng-dai-9f0b3796.mp3"
   }
 ]
